@@ -2,6 +2,7 @@ import os
 import time
 import pymysql,json
 __author__="misskiki"
+"www.t00ls.net"
 def MysqlContent(user,password,port,dbname,host):
     try:
         conn = pymysql.connect(
